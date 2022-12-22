@@ -6,6 +6,15 @@
         <local:ViewLocator/>
     </Application.DataTemplates>
 
+    <Application.Resources>
+      <ResourceDictionary>
+        <SolidColorBrush x:Key="ColorIconsSecond"  Color="#7ac0ff"/>
+        <ResourceDictionary.MergedDictionaries>
+          <ResourceInclude Source="/Icons/ResourceDictionary1.axaml"/>
+        </ResourceDictionary.MergedDictionaries>
+      </ResourceDictionary>
+    </Application.Resources>
+
     <Application.Styles>
         <FluentTheme Mode="Light"/>
     </Application.Styles>

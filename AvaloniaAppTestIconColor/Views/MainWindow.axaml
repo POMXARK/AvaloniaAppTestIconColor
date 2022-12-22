@@ -11,7 +11,11 @@
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
+  <StackPanel>
+    <Rectangle Fill="{DynamicResource IconSave}" Height="23" Width="23"/>
+    <Label/>
+    <Rectangle Fill="{DynamicResource ColorIconsSecond}" Height="23" Width="23"/>
+  </StackPanel>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 </Window>
